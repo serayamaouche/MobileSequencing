@@ -6,6 +6,9 @@ Latest update : 23 April 2017
 The [IONiseR Bioconductor package](http://bioconductor.org/packages/release/bioc/html/IONiseR.html) provides functions for quality assessment (QC) of mobile sequencing experiments.
 Data used in this example was initialy published by [Ashton et al (2015)](http://www.nature.com/nbt/journal/v33/n3/full/nbt.3103.html) in Nature Biotechnology. This Salmonella Typhi dataset is available as part of the Bioconductor data package [minionSummaryData](https://bioconductor.org/packages/release/data/experiment/html/minionSummaryData.html).
 
+<p align="center">
+  <img src="https://github.com/serayamaouche/MobileSequencing/blob/master/ReadTypeProductionPlot.png" width=""/>
+</p>
 
 1- Install IONiseR and required packages
 ```R
@@ -64,7 +67,7 @@ plotReadAccumulation( s.typhi.rep2 )
 ``` 
 
 <p align="center">
-  <img src="" width=""/>
+  <img src="https://github.com/serayamaouche/MobileSequencing/blob/master/ReadTypeProductionPlot.png" width=""/>
 </p>
 
 
