@@ -65,10 +65,29 @@ data(s.typhi.rep2, package = 'minionSummaryData')
 plotReadAccumulation( s.typhi.rep2 )
 
 ``` 
-
+This plot shows the accumulation of reads over the duration of the experiment.
 <p align="center">
-  <img src="https://github.com/serayamaouche/MobileSequencing/blob/master/ReadTypeProductionPlot.png" width=""/>
+  <img src="https://github.com/serayamaouche/MobileSequencing/blob/master/ReadAccumulationPlot.png" width=""/>
 </p>
+
+Many other metrics can be visuaized using the IONiseR package such as :
+
+a- The number of active channels for each minute of run time
+
+This plot shows the accumulation of reads over the duration of the experiment.
+<p align="center">
+  <img src="https://github.com/serayamaouche/MobileSequencing/blob/master/ActiveChannelsPlot.png" width=""/>
+</p>
+
+
+a- Layout plot of flow cell
+
+This plot shows the accumulation of reads over the duration of the experiment.
+<p align="center">
+  <img src="https://github.com/serayamaouche/MobileSequencing/blob/master/layoutPlot.png" width=""/>
+</p>
+
+Other metrics are provided in the R code example [IONiseRexample.R](https://github.com/serayamaouche/MobileSequencing/blob/master/IONiseRexample.R)
 
 
 ### Links
